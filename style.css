@@ -2,6 +2,21 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
   }
 
   .center {
@@ -10,3 +25,30 @@ ul {
     margin-right: auto;
     width: 50%;
   }
+
+  input[type="submit"] {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+  }
+
+
+
+img {
+    display: block;
+    max-width:230px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    padding: 50px;
+  }
+
+  
