@@ -23,6 +23,16 @@ ul {
     width: 50%;
   }
 
+  input[type="text"] {
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    border-radius: 25px;
+  }
+
+  input[type="text"]:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  }
+
   input[type="submit"] {
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -36,6 +46,9 @@ ul {
     padding: 0 16px;
     text-align: center;
     min-height: 35px;
+  }
+  input[type="submit"]:hover {
+    border:1px solid #dfe1e5
   }
 
 
@@ -69,6 +82,16 @@ img {
     bottom: 0;
     width: 100%;
     line-height: 40px;
+}
+
+.pull-right a {
+  float: right;
+  margin-right:10px;
+}
+
+.pull-left a {
+  float:left;
+  
 }
 
 
